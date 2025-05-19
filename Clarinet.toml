@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.postition-management]
+path = 'contracts/postition-management.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.yeild-projection]
 path = 'contracts/yeild-projection.clar'
 clarity_version = 2
